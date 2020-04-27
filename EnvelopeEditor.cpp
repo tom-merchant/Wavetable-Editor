@@ -11,6 +11,8 @@
 #define CLAMP(x, low, high)  (((x) > (high)) ? (high) : (((x) < (low)) ? (low) : (x)))
 #endif
 
+//TODO: Add way to remove breakpoints
+
 EnvelopeEditor::EnvelopeEditor ( envelope *env )
 : env(env)
 {

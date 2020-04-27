@@ -21,4 +21,4 @@ add_library(mujs mujs/main.c mujs/utf.c mujs/utftype.c mujs/jsarray.c mujs/regex
 add_executable(wavetable_editor main.cpp opengl_utils.cpp morph_preview.cpp oscilloscope_control.cpp harmonics_control.cpp EnvelopeEditor.cpp)
 
 target_link_libraries(mujs readline)
-target_link_libraries(wavetable_editor Oscillator AudioUtils envelope PkgConfig::GTKMM fftw3 mujs m GL GLU portaudio)
+target_link_libraries(wavetable_editor Oscillator AudioUtils envelope PkgConfig::GTKMM fftw3 mujs m GL portaudio)
