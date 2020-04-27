@@ -1,4 +1,5 @@
-#About
+# About
+
 This is a GUI application for editing wavetables for use with my Oscillator library.
 
 ![GUI Preview](https://i.imgur.com/nSp7n2o.png)
@@ -16,7 +17,7 @@ from a javascript expression. There are also presets for 4 basic wave shapes (si
 
 The top right graphic is a 3D surface of the current state of the morph wavetable.
 
-##Building
+## Building
 
 In order to build this project you will need a copy of muJS placed in the source tree, 
 you will need my Oscillator, Envelope and AudioUtils libraries placed in the parent directory. You will also need
